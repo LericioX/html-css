@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        a {
+            color:  red;
+            text-decoration: none;
+        }
+        a:visited {
+            color: aqua;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(250, 0, 196);
+        }
+        a::after{
+            content: '❰;';
+        }
+
+        a::before {
+            content: '❱';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://lericiox.github.io">Repositorio GitHub</a></li>
+        <li>Canal do Youtube</li>
+        <li>Site </li>
+    </ul>
+    
+</body>
+</html>
+
+
+
+
+
+
+/*
+# = id
+. = class
+: = pseudo-class 
+:: = pseudo-element
+> = children 
+*/

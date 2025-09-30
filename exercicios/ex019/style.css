@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgb(4, 85, 58);
+    font-size: 25px;
+}
+
+h1#principal {
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(4, 85, 58);
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: rgb(4, 133, 57);
+    font-size: 21px;
+    
+}
+
+p {
+    font-size: 25px;
+}
+
+.basico {
+    color: rgb(21, 252, 0);
+}
+.Inter {
+    color: rgb(252, 247, 0);
+}
+.Avancado {
+    color: rgb(255, 0, 0);
+}
+
+.destaque {
+    background-color: blue;
+}

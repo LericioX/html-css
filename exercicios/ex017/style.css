@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    font-family:'Work Sans';
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic
+    
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    background-image: linear-gradient(to right, #f1d8c9, #f2c3af  );
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #997c6b9c;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #f39209; 
+    text-align: center;  
+    text-shadow: 1px 1px 2px rgb(238, 193, 163);
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+h2 {
+    color: #125189;
+}
+
+/* 
+Medidas Absolutas
+cm  centimetro
+mm milimetro
+in polegada
+px pixel
+pt ponto
+pc paica
+
+Medidas Relativas
+em altura m (m) maiusculo
+ex altura x (x) minusculo
+rem altura root
+vw largura da view port (tamanho da tela)
+vh altura da view port
+
+
+usar font: style weight size e family para simplificar o codigo
+
+ordem correta  style weight size e family
+*/

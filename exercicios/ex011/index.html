@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Esta é uma página de exemplo para exibir imagens dinâmicas.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png"> <!-- Imagem pequena para telas menores que 750px -->
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png"> <!-- Imagem média para telas entre 751px e 1050px -->
+        <img src="imagens/grande.png" alt="Imagem Grande" /> <!-- Imagem grande para telas maiores que 1050px -->
+
+    </picture>
+    <h1>Reproduzindo Audios em Html5</h1>
+    <audio preload="metadata" controls  autoplay loop>
+        <source src="audio/ontheflip.mp3" type="audio/mpeg">
+        <p>Seu navegador não suporta o elemento de áudio. Caso queira baixar o arquivo <a href="audio/ontheflip.mp3">clique aqui</a>.</p>
+    </audio>
+</body>
+</html>

@@ -1,0 +1,46 @@
+aninhamneto = quando coloca uma coisa dentro da outra
+caixa = o tamanho do escrito 
+
+height = altura 
+width = largura
+border = borda da linha que fica ao em volta do escrito
+padding =  espaço entra a borda e o conteudo
+margin = é o espaço para nao colar uma caixa na outra
+outline = traçado fora do elemento
+
+
+*tipos de caixa*
+
+1 = box level
+   pula para alinha nova e ocupa a largura total do navegador 100% do viewport
+
+div modelo de box
+<h1></h1>
+<p></p>
+<main></main>
+<head></head>
+<nav></nav>
+<article></article>
+<aside></aside>
+<footer></footer>
+<form action=""></form>
+<video src=""></video>
+
+
+
+
+2 = inline-level
+  mantem a mesma linha e ocupa apenas o tamanho preciso e apos continua fazendo
+
+
+<span></span>  
+<a href=""></a>
+<code></code>
+<small></small>
+<sup></sup>
+<sub></sub>
+<em></em>
+<label for=""></label>
+<button></button>
+<input type="text" name="" id="">
+<select name="" id=""></select>
